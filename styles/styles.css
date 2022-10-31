@@ -1,0 +1,178 @@
+* {
+    font-family: "Fredoka", Arial;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #C6E7C9;
+    overflow: auto;
+}
+
+.grid-container {
+    margin: 0;
+    display: grid;
+    gap: 20px 0;
+    justify-content: space-evenly;
+    align-content: center;
+    grid-template-columns: 5% 20% 50% 5%;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+}
+
+/* Header and Nav Bar */
+
+header {
+    background: #E2E7E1;
+    height: 50px;
+    width: 100%;
+}
+
+.header-title > h3{
+    display: inline-block;
+    font-weight: 700;
+    vertical-align: middle;
+    margin: .5% 0 0 2%;
+}
+
+.nav-bar {
+    height: 50px;
+
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    max-width: 600px;
+    padding-right: 2%;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+.selected {
+    text-decoration: underline;
+    color: #62775E;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 3%;
+}
+
+nav > ul > li > a:hover {
+    color: #62775E;
+    cursor: pointer;
+}
+
+/* Images */
+
+img {
+    display: flex;
+    width:auto;
+    max-width: 400px;
+    height:auto;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.aboutmeImg {
+    grid-area: 2 / 2 / 3 / 4;
+    justify-content: flex-end;
+}
+
+.kilby {
+    padding: 10px;
+    background-color: #859981;
+}
+
+
+/* About Me Header */
+
+.aboutmeHeader {
+    grid-area: 1 / 3;
+    margin-top: 10%;
+}
+
+.aboutmeHeader > h2 , .aboutmeHeader > h1{
+    text-align: center;
+    color: #764B3E;
+}
+
+.aboutmeHeader > h1 {
+    font-size: 50px;
+    font-weight: 800;;
+}
+
+/* About Me Text */
+
+.aboutmeText {
+    grid-area: 2 / 3;
+    margin-top: 10%
+}
+
+.minor-text {
+    font-size: 15px;
+}
+
+/* Links 
+
+.links {
+    grid-area: 7 / 3;
+}
+.links > ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.links > li > a {
+    text-decoration: none;
+}
+
+.link-button {
+    margin-top: 15px;
+    width: 10em;
+    height: 60;
+    background-color: hsla(29°, 48%, 72%, 54%);
+}
+*/
+
+
+.link_button {
+    background-color: hsla(29°, 48%, 72%, 54%);
+    display: inline-block;
+}
+
+.link_button:hover {
+    background-color: beige;
+    color: white;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: block;
+    text-align: end;
+}
+
+footer > p {
+    display: inline-block;
+    justify-content: end;
+    padding-right: 20px;
+}
