@@ -161,10 +161,9 @@ img {
 footer {
     position: absolute;
     width: 100%;
-    bottom: 0;
     display: block;
     text-align: end;
-    border-top: 1px solid #764B3E;
+    /*border-top: 1px solid #764B3E;*/
 }
 
 footer > p {
@@ -177,3 +176,7 @@ footer > p {
 
 /*===== Home Page =====*/
 
+.home-p {
+    align-items: center;
+    text-align: center;
+}
