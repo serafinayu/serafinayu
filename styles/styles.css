@@ -94,12 +94,12 @@ img {
   flex-wrap: wrap;
 }
 
-.aboutmeImg {
+#aboutmeImg {
   grid-area: 2 / 2 / 3 / 4;
   justify-content: flex-end;
 }
 
-.kilby {
+#kilby {
   padding: 10px;
   background-color: #859981;
 }
@@ -124,7 +124,7 @@ img {
 
 /* About Me Text */
 
-.aboutmeText {
+#aboutmeText {
   grid-area: 2 / 3 / 5;
   margin-top: 10%;
 }
