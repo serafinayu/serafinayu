@@ -2,6 +2,10 @@
   font-family: "Fredoka", Arial;
 }
 
+html, body  {
+  height: 100%;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -28,15 +32,24 @@ header {
   width: 100%;
 }
 
-.head-title {
+.headerContainer {
+  height: 100%;
+  width: 100;
+}
+
+.header-title {
   display: inline-flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
 }
 
 .header-title > h3 {
   display: inline-block;
   font-weight: 700;
-  vertical-align: middle;
-  margin: 0.3% 0 0 2%;
+  justify-content: 100%; 
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar {
@@ -92,11 +105,13 @@ img {
   object-fit: cover;
   border-radius: 5px;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-#aboutmeImg {
-  grid-area: 2 / 2 / 3 / 4;
-  justify-content: flex-end;
+.aboutMeImg {
+  justify-content: center;
+  align-items: center;
 }
 
 #kilby {
@@ -124,10 +139,10 @@ img {
 
 /* About Me Text */
 
-#aboutmeText {
+/* .aboutmeText {
   grid-area: 2 / 3 / 5;
   margin-top: 10%;
-}
+} */
 
 .minor-text {
   font-size: 15px;
@@ -177,4 +192,34 @@ footer > p {
 .home-p {
   align-items: center;
   text-align: center;
+}
+
+@media all and (orientation: portrait) {
+  header {
+    background: #e2e7e1;
+    height: 100px;
+    width: 100%;
+  }
+
+  .header-title {
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+  }
+  
+  .header-title > h3 {
+    font-weight: 700;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar {
+    height: 50px;
+    display: block;
+    margin: auto 0;
+    order: 1;
+  }
 }
