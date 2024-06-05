@@ -20,7 +20,3 @@ Here are some ideas to get you started:
 - 📚 Working on explanding my tech stack and plan to spend more time on fun side projects like my Realm of the Mad God Loot Counter web app!
 - 🌱 I’m currently learning more about full stack web dev and game development
 - ⚡ Fun fact: I have 2500~ hours of Realm of the Mad God gameplay
-  
-### 30NitesOfCode:
-  [Check out my progress!](https://www.codedex.io/@serafinayu344/30-nites-of-code)  
-  ![@serafinayu344 #30NitesOfCode](https://www.codedex.io/api/petStatus?user=serafinayu344)
