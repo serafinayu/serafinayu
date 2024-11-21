@@ -5,59 +5,96 @@ body {
     font-family: 'Albert Sans', sans-serif;
 }
 
-.main-header {
+.header__desktop {
     position: fixed;
     display: flex;
     justify-content: space-between;
-    padding: 5px 15px;
+    padding: 5px 20px;
+    box-sizing: border-box;
     align-items: center;
     width: 100%;
     background-color: black;
     z-index: 2;
+    height: 70px;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    z-index: 3;
+}
+
+.header__desktop__right-container {
+    display: flex;
+    align-items: center;
 }
 
 .hero {
     position: relative;
     display: flex;
     gap: 10px;
-    margin: 0;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 70px); /* Subtract the height of the header (50px)*/
+    padding-top: 70px; /* Equal to the header height */
     justify-content: space-around;
 }
 
 .hero::before {
     content: "";
     position: absolute;
-    background-image: url(images/hero_backg.jpg);
+    /* background-image: url(images/hero_backg.jpg); */
+    background-image: url(images/hero.png);
+    background-position: top -50px center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 100%;
-    height: 100vh;
-    opacity: 0.5;
+    height: calc(100vh - 70px); /* Subtract the height of the header (50px) */
+    filter: brightness(1) contrast(.7) grayscale(.2);
     z-index: 1;
 }
 
-.hero-left {
+.hero__left-container {
     flex: 1;
     display: flex;
     width: auto;
     align-items: center;
     justify-content: center;
     z-index: 2;
+    margin-left: 10%;
 
 }
 
-.hero-left > img {
-    width: 50%;
-    height: auto;
+.hero__left-container > img {
+    height: 90%;
+    width: auto;
 }
 
-.hero-right {
+.hero__right-container {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-content: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
     z-index: 2;
+    margin-right: 10%
+}
+
+.hero__right-container h1 {
+    font-weight: 500;
+    font-size: 4em;
+    margin: 0;
+}
+
+.hero__right-container h2 {
+    font-weight: 500;
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero__right-container p {
+    font-weight: 500;
+    font-size: 1.5em;
 }
