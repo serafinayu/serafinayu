@@ -1,22 +1,12 @@
-## Hi there 👋
-I'm Serafina Yu, a Computer Science student at California State University, Fullerton.
-<!--
-**serafinayu/serafinayu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h2 align="center">Hi there! 👋 I'm Serafina Yu</h2>
+<p align="center">Aspiring Full-Stack Developer</p>
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<h3>About me</h3>
+<ul>
+	<li>🔭 I have a BS in Computer Science from the California State University of Fullerton</li>
+	<li>📚 Currently learning how to design and build larger-scale full stack web apps, focusing on scalability and maintainability</li>
+	<li>☀️ Fun fact: I like to gym and make silly projects that can make my life more fun</li>
+	<li>📫 How to reach me: <a href="https://www.linkedin.com/in/serafina-yu-475153186/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+</ul>
 
--->
-### About me
-- 🔭 I’m a new grad from California State Univesity, Fullerton for a BS in Computer Science
-- 📚 Working on expanding my tech stack and plan to spend more time on fun side projects like my Realm of the Mad God Loot Counter web app!
-- 🌱 I’m currently learning more about full stack web dev and game development
-- ⚡ Fun fact: I have 2500~ hours of Realm of the Mad God gameplay
